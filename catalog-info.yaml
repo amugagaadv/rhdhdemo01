@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible.rhdhdemo01
+  description: The repo
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: amugagaadv/rhdhdemo01
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/#https://github.com/amugagaadv/rhdhdemo01
+      title: OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  system: ansible
+  lifecycle: production
+  owner: ganeshrn
